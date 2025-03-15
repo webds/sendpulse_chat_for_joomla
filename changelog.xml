@@ -3,7 +3,7 @@
     <changelog>
         <element>webds2spchat</element>
         <type>plugin</type>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <change>
             <item>Initial release.</item>
         </change>
