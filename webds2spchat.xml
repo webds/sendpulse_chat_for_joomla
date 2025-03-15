@@ -21,6 +21,7 @@
         <folder>sql</folder>
         <folder>tmpl</folder>
         <folder>doc</folder>
+        <filename>LICENSE.txt</filename>
     </files>
     <updateservers>
         <server type="extension" priority="1" name="Updates of SendPulse Chat plugin for Joomla">https://raw.githubusercontent.com/webds/sendpulse_chat_for_joomla/refs/heads/main/sendpulse_chat_update.xml</server>
