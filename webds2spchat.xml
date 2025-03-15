@@ -23,7 +23,7 @@
         <folder>doc</folder>
     </files>
     <updateservers>
-        <server type="extension" priority="1" name="Updates of SendPulse Chat plugin for Joomla">https://github.com/webds/sendpulse_chat_for_joomla/raw/main/sendpulse_chat_update.xml</server>
+        <server type="extension" priority="1" name="Updates of SendPulse Chat plugin for Joomla">https://raw.githubusercontent.com/webds/sendpulse_chat_for_joomla/refs/heads/main/sendpulse_chat_update.xml</server>
     </updateservers>
     <config>
         <fields name="params">
