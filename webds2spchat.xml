@@ -7,7 +7,7 @@
     <creationDate>2025-10-01</creationDate>
     <copyright>© WebDS (webds.net). All Rights Reserved</copyright>
     <license>GNU General Public License version 2 or later;</license>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <description>PLG_SYSTEM_WEBDS2SPCHAT_DESCRIPTION</description>
     <languages>
         <language tag="en-GB">languages/en-GB/en-GB.plg_system_webds2spchat.ini</language>
