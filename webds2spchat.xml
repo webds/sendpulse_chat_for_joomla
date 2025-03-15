@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="5.0" method="upgrade" group="system">
+    <name>PLG_SYSTEM_SENDPULSECHAT</name>
+    <author>Roman WebDS</author>
+    <authorEmail>info@webds.net</authorEmail>
+    <authorUrl>https://webds.net</authorUrl>
+    <creationDate>2025-10-01</creationDate>
+    <copyright>© WebDS (webds.net). All Rights Reserved</copyright>
+    <license>GNU General Public License version 2 or later;</license>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_WEBDS2SPCHAT_DESCRIPTION</description>
+    <languages>
+        <language tag="en-GB">languages/en-GB/en-GB.plg_system_webds2spchat.ini</language>
+        <language tag="en-GB">languages/en-GB/en-GB.plg_system_webds2spchat.sys.ini</language>
+        <language tag="uk-UA">languages/uk-UA/uk-UA.plg_system_webds2spchat.ini</language>
+        <language tag="uk-UA">languages/uk-UA/uk-UA.plg_system_webds2spchat.sys.ini</language>
+    </languages>
+    <files>
+        <filename plugin="webds2spchat">webds2spchat.php</filename>
+        <folder>languages</folder>
+        <folder>sql</folder>
+        <folder>tmpl</folder>
+        <folder>doc</folder>
+    </files>
+    <updateservers>
+        <server type="extension" priority="1" name="Updates of SendPulse Chat plugin for Joomla">https://github.com/webds/sendpulse_chat_for_joomla/raw/main/sendpulse_chat_update.xml</server>
+    </updateservers>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="code_chat"
+                        type="text"
+                        label="PLG_WEBDS2SPCHAT_CODE_CHAT_LABEL"
+                        description="PLG_WEBDS2SPCHAT_CODE_CHAT_DESC"
+			hint="PLG_WEBDS2SPCHAT_CODE_CHAT_HINT"
+                        size="30"
+                />
+                <field
+                        name="exclude_pages"
+                        type="textarea"
+                        label="PLG_WEBDS2SPCHAT_EXCLUDE_PAGES_LABEL"
+                        description="PLG_WEBDS2SPCHAT_EXCLUDE_PAGES_DESC"
+                        rows="5"
+                        cols="30"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

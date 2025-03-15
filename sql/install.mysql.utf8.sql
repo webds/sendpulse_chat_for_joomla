@@ -1,0 +1,1 @@
+-- No specific SQL required for this plugin
