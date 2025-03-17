@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
 use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Factory;
 
-class PlgSystemSendPulseChat extends CMSPlugin
+class PlgSystemWebds2spchat extends CMSPlugin
 {
     protected $app;
 
